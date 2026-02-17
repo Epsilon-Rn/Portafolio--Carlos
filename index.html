@@ -2,39 +2,108 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos Manzo | Epsilon - Ecosistema Lógico</title>
+    <title>Epsilon Noir</title>
+
     <style>
-        :root {
-            --bg: #0a0a0a;
-            --text: #e0e0e0;
-            --accent: #00ffcc;
-            --secondary: #888;
-        }
         body {
-            background-color: var(--bg);
-            color: var(--text);
-            font-family: 'Courier New', Courier, monospace;
             margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
+            background-color: #000000;
+            color: #00ff66;
+            font-family: "Courier New", Courier, monospace;
         }
+
         .container {
-            max-width: 800px;
-            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 20px;
             text-align: center;
         }
-        h1 { font-size: 2rem; color: var(--accent); letter-spacing: 2px; }
-        p.subtitle { color: var(--secondary); margin-bottom: 40px; }
-        
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #008f3a;
+            margin-bottom: 60px;
+        }
+
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+            gap: 30px;
         }
+
+        .card {
+            border: 1px solid #00ff66;
+            padding: 30px;
+            text-decoration: none;
+            color: #00ff66;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            background-color: #001a0d;
+            box-shadow: 0 0 15px #00ff66;
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            margin-top: 80px;
+            font-size: 0.8em;
+            color: #006622;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>EPSILON NOIR</h1>
+    <div class="subtitle">Archivo personal · Investigación · Ficción · Curaduría</div>
+
+    <div class="grid">
+
+        <a href="academica/" class="card">
+            <h2>Académica</h2>
+            <p>Artículos maquetados, ensayos, investigación formal.</p>
+        </a>
+
+        <a href="ficcion/" class="card">
+            <h2>Escritura Creativa</h2>
+            <p>Relatos, cuentos, Wattpad, Amazon KDP, portadas.</p>
+        </a>
+
+        <a href="cv/" class="card">
+            <h2>Currículum Vitae</h2>
+            <p>CV en línea y trayectoria académica.</p>
+        </a>
+
+        <a href="curanderia/" class="card">
+            <h2>Curandería & Vintage</h2>
+            <p>Libros raros, cómics, mangas, piezas y fotografías.</p>
+        </a>
+
+        <a href="research/" class="card">
+            <h2>Research</h2>
+            <p>Notas, preprints, LaTeX y borradores en desarrollo.</p>
+        </a>
+
+    </div>
+
+    <footer>
+        © 2026 Epsilon Noir — Sistema en expansión.
+    </footer>
+
+</div>
+
+</body>
+</html>        }
         .card {
             border: 1px solid #333;
             padding: 20px;
