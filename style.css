@@ -1,0 +1,122 @@
+/* ================================
+   EPSILON NOIR - SISTEMA GLOBAL
+   ================================ */
+
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+h1 {
+    color: #00ffaa;
+    font-size: 3em;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-right: 4px; /* Compensación centrado perfecto */
+}
+
+.subtitle {
+    color: #777777;
+    margin-bottom: 70px;
+    font-size: 1.1em;
+}
+
+.card {
+    border: 1px solid #333333;
+    padding: 45px 30px;
+    margin-bottom: 45px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.card p {
+    color: #aaaaaa;
+}
+
+.card:hover {
+    border-color: #00ffaa;
+    box-shadow: 0 0 12px #00ffaa;
+}
+
+/* Estilo para listas de contenido */
+.content-list {
+    text-align: left;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.content-item {
+    border-left: 2px solid #333333;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.content-item:hover {
+    border-left-color: #00ffaa;
+    background-color: #0a0a0a;
+}
+
+.content-item h3 {
+    color: #00ffaa;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.content-item p {
+    color: #aaaaaa;
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.content-item a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #333333;
+    transition: 0.3s ease;
+}
+
+.content-item a:hover {
+    border-bottom-color: #00ffaa;
+    color: #00ffaa;
+}
+
+/* Botón de regreso */
+.back-link {
+    display: inline-block;
+    margin-top: 60px;
+    color: #777777;
+    text-decoration: none;
+    border: 1px solid #333333;
+    padding: 12px 30px;
+    transition: 0.3s ease;
+}
+
+.back-link:hover {
+    border-color: #00ffaa;
+    color: #00ffaa;
+}
+
+footer {
+    margin-top: 100px;
+    font-size: 0.8em;
+    color: #555555;
+  }
